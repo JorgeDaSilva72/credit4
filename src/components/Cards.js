@@ -4,8 +4,7 @@ import './Cards.css';
 import CardItemImage1 from '../images/img-9.jpg';
 import CardItemImage2 from '../images/img-2.jpg';
 import CardItemImage3 from '../images/img-3.jpg';
-import CardItemImage4 from '../images/img-4.jpg';
-import CardItemImage8 from '../images/img-8.jpg';
+
 
 function Cards() {
   return (
