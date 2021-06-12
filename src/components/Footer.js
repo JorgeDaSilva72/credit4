@@ -69,7 +69,12 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               M.T.B              
-            <i class="fas fa-piggy-bank"></i>
+            {/*<i class="fas fa-piggy-bank"></i>*/}
+            <div class="logo-footer">
+            <img src="./logo.jpg" alt="logo" width="30px" height="30px"/>
+
+            </div>
+            
             </Link>
           </div>
           <small class='website-rights'>MEILLEURTAUXBANQUE.COM © 2021</small>

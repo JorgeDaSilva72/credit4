@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Button from './Button';
+
 
 import './Navbar.css';
 
@@ -31,7 +31,12 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             MEILLEURTAUXBANQUE.COM
-            <i className="fas fa-piggy-bank"></i>
+            <div class="logo-nav">
+            <img src="./logo.jpg" alt="logo" width="30px" height="30px"/>
+
+            </div>
+            {/*
+            <i className="fas fa-piggy-bank"></i>*/}
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
@@ -63,14 +68,15 @@ function Navbar() {
             <li className='nav-item'>
               <Link
                 to='/sign-up'
-                className='nav-links-mobile'
+                className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Nous Contacter
               </Link>
             </li>
           </ul>
-          {button && <Button>Nous Contacter</Button>}
+          {/*
+          {button && <Button>Nous Contacter</Button>}*/}
         </div>
       </nav>
     </>
