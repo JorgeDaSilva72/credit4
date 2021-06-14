@@ -20,13 +20,14 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            MEILLEURTAUXBANQUE.COM
+            {/*
+            <i className="fas fa-piggy-bank"></i>*/}
             <div class="logo-nav">
             <img src="./logo.jpg" alt="logo" width="30px" height="30px"/>
 
             </div>
-            {/*
-            <i className="fas fa-piggy-bank"></i>*/}
+            MEILLEURTAUXBANQUE.COM
+            
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>

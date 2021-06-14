@@ -68,12 +68,13 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              M.T.B              
-            {/*<i class="fas fa-piggy-bank"></i>*/}
+              {/*<i class="fas fa-piggy-bank"></i>*/}
             <div class="logo-footer">
             <img src="./logo.jpg" alt="logo" width="30px" height="30px"/>
 
             </div>
+              M.T.B              
+            
             
             </Link>
           </div>
